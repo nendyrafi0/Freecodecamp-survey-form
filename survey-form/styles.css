@@ -1,0 +1,76 @@
+h1,
+h2,
+p {
+    margin: 16px auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: rgb(178, 6, 6);
+}
+
+.form-group {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 500px;
+    padding: 32px;
+    background-color: rgb(248, 199, 135);
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(ayamgoreng.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 20px;
+    color: rgb(178, 6, 6);
+}
+
+input,
+textarea {
+    background-color: rgb(193, 147, 87);
+    border-color: burlywood;
+    color: white;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 28px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.checkbox {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 0.05em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(178, 6, 6);
+    color: white;
+    border-color: burlywood;
+    min-width: 300px;
+}
+
+::placeholder {
+    color: white;
+}

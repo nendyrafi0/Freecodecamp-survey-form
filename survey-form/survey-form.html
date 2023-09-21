@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Cahyono Fried Chicken Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">
+        CAHYONO FRIED CHICKEN
+    </h1>
+    <h2 id="title-2">
+        CUSTOMER SURVEY FORM
+    </h2>
+    <p id="description">
+        We Appreciate Your Assistance For Making Us Better</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">
+                Name
+                <input id="name" type="text" placeholder="Enter your name" required />
+            </label>
+            <label id="email-label" for="email">
+                Email
+                <input id="email" type="email" placeholder="Enter your Email" required />
+            </label>
+            <label id="number-label" for="number">
+                Age (optional)
+                <input id="number" type="number" min="10" max="100" placeholder="Age" />
+            </label>
+            <label id="dropdown-label" for="dropdown">
+                Which option describe your status the most?
+                <select id="dropdown" required>
+                    <option value="">Select an option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Worker</option>
+                    <option value="3">Food Analyst</option>
+                    <option value="4">Prefer Not To Say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <label id="radiobutton-label" for="radiobutton">
+                Would you recommend our Restaurant to others?
+            </label>
+            <label>
+                <input id="radiobutton" type="radio" name="recommend" class="inline" value="recommend">
+                Definitely
+            </label>
+            <label>
+                <input id="radiobutton" type="radio" name="recommend" class="inline" value="not-recommended">
+                I'm Not Sure
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Which Menu do you like the most? (check all that apply)
+            </label>
+            <label>
+                <input id="menus" type="checkbox" class="checkbox" value="friedchicken">
+                Fried Chicken
+            </label>
+            <label>
+                <input id="menus" type="checkbox" class="checkbox" value="burger">
+                Burger
+            </label>
+            <label>
+                <input id="menus" type="checkbox" class="checkbox" value="snacks">
+                French Fries and Nuggets
+            </label>
+            <label>
+                <input id="menus" type="checkbox" class="checkbox" value="drinks">
+                Soda
+            </label>
+            <label>
+                <input id="menus" type="checkbox" class="checkbox" value="additional-menu">
+                Other Additional Menu Including Ice Cream and Desserts
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Do you have any suggestion for Cahyono Fried Chicken?
+                <textarea id="comment" placeholder="Your opinion and suggestion about Cahyono fried Chicken" rows="3" cols="30"></textarea>
+            </label>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
